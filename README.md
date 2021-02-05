@@ -11,6 +11,36 @@ SQLServer2014EzApi is producing SQL Server Packages with the following charateri
 *Based on Microsoft Intructions, SQLServerPackages should be deployed on SQLServer using aligned version of Management Studio.
 **Management Studio deployment wizard may affect the Build and PackageFormatVersion in case of using a newer version of SSMS for deploying package with older TargetSQLServerVersion version.
 
+##Changelog
+Major changes from SQLServer2012EzApi --> SQLServer2014EzApi
++EzComponents.EzComponent.SetOutputSorted
++EzComponents.EzComponent.SetOutputColumnErrorRowDisposition
++EzComponents.EzComponent.SetOutputColumnTruncationRowDisposition
++EzComponents.EzComponent.UnmapColumn
++EzComponents.EzComponent.UnmapAllInputColumns
++EzComponents.EzOleDbAdapter.SQLCommandVariable
++EzComponents.EzRowCount
++EzComponents.EzDerivedColumn
+
++EzConnections.EzConnectionManager.SetExpression
++EzConnections.EzFlatFileCM.DefineColumnsInCM
+
++EzExecutables.EzContainer.DelayValidation
++EzExecutables.EzSequence.DtsProperties
++EzExecutables.EzSequence.SetExpression
++EzExecutables.OleDBDataTypes
++EzExecutables.EzForEachLoop.ForEachVariableMappings
+
++EzExecutables.EzPackage.Configurations
++EzExecutables.EzPackage.EnableConfigurations
++EzExecutables.EzPackage.DtsEventHandlers
++EzExecutables.EzTask.SetExpression
++EzExecutables.EzExpressionTask
++EzExecutables.EzExecPackage.UseProjectReference
++EzExecutables.EzExecPackage.IDTSParameterAssignments
++EzExecutables.EzExecSqlTask.IsQueryStoredProcedure
++EzExecutables.EzExecSqlTask.IDTSResultBindings
+
 ## Contributing
 
 1. Fork it!
