@@ -13,30 +13,30 @@ SQLServer2014EzApi is producing SQL Server Packages with the following charateri
 
 ## Changelog
 Major changes from SQLServer2012EzApi --> SQLServer2014EzApi
-*EzComponents.EzComponent.SetOutputSorted
-*EzComponents.EzComponent.SetOutputColumnErrorRowDisposition
-*EzComponents.EzComponent.SetOutputColumnTruncationRowDisposition
-*EzComponents.EzComponent.UnmapColumn
-*EzComponents.EzComponent.UnmapAllInputColumns
-*EzComponents.EzOleDbAdapter.SQLCommandVariable
-*EzComponents.EzRowCount
-*EzComponents.EzDerivedColumn
-*EzConnections.EzConnectionManager.SetExpression
-*EzConnections.EzFlatFileCM.DefineColumnsInCM
-*EzExecutables.EzContainer.DelayValidation
-*EzExecutables.EzSequence.DtsProperties
-*EzExecutables.EzSequence.SetExpression
-*EzExecutables.OleDBDataTypes
-*EzExecutables.EzForEachLoop.ForEachVariableMappings
-*EzExecutables.EzPackage.Configurations
-*EzExecutables.EzPackage.EnableConfigurations
-*EzExecutables.EzPackage.DtsEventHandlers
-*EzExecutables.EzTask.SetExpression
-*EzExecutables.EzExpressionTask
-*EzExecutables.EzExecPackage.UseProjectReference
-*EzExecutables.EzExecPackage.IDTSParameterAssignments
-*EzExecutables.EzExecSqlTask.IsQueryStoredProcedure
-*EzExecutables.EzExecSqlTask.IDTSResultBindings
+1. EzComponents.EzComponent.SetOutputSorted
+2. EzComponents.EzComponent.SetOutputColumnErrorRowDisposition
+3. EzComponents.EzComponent.SetOutputColumnTruncationRowDisposition
+4. EzComponents.EzComponent.UnmapColumn
+5. EzComponents.EzComponent.UnmapAllInputColumns
+6. EzComponents.EzOleDbAdapter.SQLCommandVariable
+7. EzComponents.EzRowCount
+8. EzComponents.EzDerivedColumn
+9. EzConnections.EzConnectionManager.SetExpression
+10. EzConnections.EzFlatFileCM.DefineColumnsInCM
+11. EzExecutables.EzContainer.DelayValidation
+12. EzExecutables.EzSequence.DtsProperties
+13. EzExecutables.EzSequence.SetExpression
+14. EzExecutables.OleDBDataTypes
+15. EzExecutables.EzForEachLoop.ForEachVariableMappings
+16. EzExecutables.EzPackage.Configurations
+17. EzExecutables.EzPackage.EnableConfigurations
+18. EzExecutables.EzPackage.DtsEventHandlers
+19. EzExecutables.EzTask.SetExpression
+20. EzExecutables.EzExpressionTask
+21. EzExecutables.EzExecPackage.UseProjectReference
+22. EzExecutables.EzExecPackage.IDTSParameterAssignments
+23. EzExecutables.EzExecSqlTask.IsQueryStoredProcedure
+24. EzExecutables.EzExecSqlTask.IDTSResultBindings
 
 ## Contributing
 
