@@ -21,16 +21,13 @@ Major changes from SQLServer2012EzApi --> SQLServer2014EzApi
 +EzComponents.EzOleDbAdapter.SQLCommandVariable
 +EzComponents.EzRowCount
 +EzComponents.EzDerivedColumn
-
 +EzConnections.EzConnectionManager.SetExpression
 +EzConnections.EzFlatFileCM.DefineColumnsInCM
-
 +EzExecutables.EzContainer.DelayValidation
 +EzExecutables.EzSequence.DtsProperties
 +EzExecutables.EzSequence.SetExpression
 +EzExecutables.OleDBDataTypes
 +EzExecutables.EzForEachLoop.ForEachVariableMappings
-
 +EzExecutables.EzPackage.Configurations
 +EzExecutables.EzPackage.EnableConfigurations
 +EzExecutables.EzPackage.DtsEventHandlers
