@@ -675,6 +675,12 @@ namespace Microsoft.SqlServer.SSIS.EzAPI
         {
             get { return (m_exec as Package).EventHandlers; }
         }
+
+        public int MaxConcurrentExecutables
+        {
+            get { return (m_exec as Package).MaxConcurrentExecutables; }
+            set { (m_exec as Package).MaxConcurrentExecutables = value; }
+        }
     }
 
     public class EzExpressionIndexer
