@@ -1144,7 +1144,7 @@ namespace Microsoft.SqlServer.SSIS.EzAPI
         }
     }
 
-    [ExecID("Microsoft.SqlServer.Dts.Tasks.TransferDatabaseTask.TransferDatabaseTask, Microsoft.SqlServer.TransferDatabasesTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91")]
+    [ExecID("Microsoft.SqlServer.Dts.Tasks.TransferDatabaseTask.TransferDatabaseTask, Microsoft.SqlServer.TransferDatabasesTask, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91")]
     public class EzTransferDBTask : EzTask
     {
         public EzTransferDBTask(EzContainer parent) : base(parent) { }
@@ -1342,7 +1342,7 @@ namespace Microsoft.SqlServer.SSIS.EzAPI
     }
 
 
-    [ExecID("Microsoft.SqlServer.Dts.Tasks.ExecuteProcess.ExecuteProcess, Microsoft.SqlServer.ExecProcTask,Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91")]
+    [ExecID("Microsoft.SqlServer.Dts.Tasks.ExecuteProcess.ExecuteProcess, Microsoft.SqlServer.ExecProcTask,Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91")]
     public class EzExecProcessTask : EzTask
     {
         public EzExecProcessTask(EzContainer parent) : base(parent) { }
@@ -1444,7 +1444,7 @@ namespace Microsoft.SqlServer.SSIS.EzAPI
     }
 
 
-    [ExecID("Microsoft.SqlServer.Dts.Tasks.FileSystemTask.FileSystemTask, Microsoft.SqlServer.FileSystemTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91")]
+    [ExecID("Microsoft.SqlServer.Dts.Tasks.FileSystemTask.FileSystemTask, Microsoft.SqlServer.FileSystemTask, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91")]
     public class EzFileSystemTask : EzTask
     {
         public EzFileSystemTask(EzContainer parent) : base(parent) { }
